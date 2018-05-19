@@ -14,9 +14,9 @@ Line break
 Add Answer
 
 Different scenarios -
-- Question with multiple answers:
--- Examples:
----What is the reason for the eviction?
+* Question with multiple answers:
+  - Examples:
+    - Grounds
 - Element with no children - answer to question provides Explanation and Instructions
 -- Examples:
 --- LatePayAllowed
