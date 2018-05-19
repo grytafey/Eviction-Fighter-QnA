@@ -1,0 +1,265 @@
+object: DAObject
+module: docassemble.base.util
+items:
+  - name: Eviction Action
+      object: DAObject
+    typeofhousing:
+    state: Ohio
+    parent:
+    description: A property owner can only evict an occupant by filing an eviction action.  In
+    legalcitation: O.R.C. Chapter 1923
+    legalelements:
+      object: DAList
+      object_type: DAObject
+      allnotany: True
+      elements:
+        - Jurisdiction
+        - Notice
+        - Grounds
+        - Other defenses
+    factelements:
+      object: DAList
+      object_type: DAObject
+      elements:
+  - name: Jurisdiction
+      object: DAObject
+    typeofhousing:
+    state: Ohio
+    parent: Eviction Action
+    description: A landlord must meet the legal requirements
+    legalcitation: O.R.C. 1923.02
+    legalelements:
+      object: DAList
+      object_type: DAObject
+      allnotany: True
+      elements:
+        - Real Party in Interest
+        - Fictitious Name Registration
+        - Statute of Limitations
+        - Unauthorized Practice of Law
+        - Lack of Area Jurisdiction
+    factelements:
+      object: DAList
+      object_type: DAObject
+      elements:
+  - name: Notice
+      object: DAObject
+    typeofhousing:
+    state: Ohio
+    parent: Eviction Action
+    description:
+    legalcitation: O.R.C. 1923.04
+    legalelements:
+      object: DAList
+      object_type: DAObject
+      allnotany: True
+      elements:
+        - Deficient Content or Service of Notice to Vacate
+        - Deficient Service of Process
+        - Waiver of Notice to Vacate
+    factelements:
+      object: DAList
+      object_type: DAObject
+      elements:
+  - name: Grounds
+      object: DAObject
+    typeofhousing:
+    state: Ohio
+    parent: Eviction Action
+    description:
+    legalcitation: O.R.C. 5321.03
+    legalelements:
+      object: DAList
+      object_type: DAObject
+      allnotany: False
+      elements:
+        - Nonpayment of Rent
+        - Tenant Caused Violation
+        - Compliance Deprives Use
+        - Holding Over
+        - Sex Offender
+    factelements:
+      object: DAList
+      object_type: DAObject
+      elements:
+  - name: Other defenses
+      object: DAObject
+    typeofhousing:
+    state: Ohio
+    parent: Eviction Action
+    description:
+    legalcitation: O.R.C. 1923.02
+    legalelements:
+      object: DAList
+      object_type: DAObject
+      allnotany: True
+      elements:
+        - Retaliation
+        - Discrimination
+        - Equity
+        - Violation of Lease Provision for Termination
+    factelements:
+      object: DAList
+      object_type: DAObject
+      elements:
+  - name: Real Party in Interest
+      object: DAObject
+    typeofhousing:
+    state: Ohio
+    parent: Jurisdiction
+    description: A landlord must meet the legal requirements
+    legalcitation: O.R.C. 1923.02
+    legalelements:
+      object: DAList
+      object_type: DAObject
+      allnotany: True
+      elements:
+        - 
+        - Fictitious Name Registration
+        - Statute of Limitations
+        - Unauthorized Practice of Law
+        - Lack of Area Jurisdiction
+    factelements:
+      object: DAList
+      object_type: DAObject
+      elements:
+  - name: Fictitious Name Registration
+      object: DAObject
+    typeofhousing:
+    state: Ohio
+    parent: Jurisdiction
+    description: A landlord must meet the legal requirements
+    legalcitation: O.R.C. 1923.02
+    legalelements:
+      object: DAList
+      object_type: DAObject
+      allnotany: True
+      elements:
+        - 
+        - 
+        - Statute of Limitations
+        - Unauthorized Practice of Law
+        - Lack of Area Jurisdiction
+    factelements:
+      object: DAList
+      object_type: DAObject
+      elements:
+  - name: Statute of Limitations
+      object: DAObject
+    typeofhousing:
+    state: Ohio
+    parent: Jurisdiction
+    description: A landlord must meet the legal requirements
+    legalcitation: O.R.C. 1923.02
+    legalelements:
+      object: DAList
+      object_type: DAObject
+      allnotany: True
+      elements:
+        - 
+        - Fictitious Name Registration
+        - 
+        - Unauthorized Practice of Law
+        - Lack of Area Jurisdiction
+    factelements:
+      object: DAList
+      object_type: DAObject
+      elements:
+  - name: Unauthorized Practice of Law
+      object: DAObject
+    typeofhousing:
+    state: Ohio
+    parent: Jurisdiction
+    description: A landlord must meet the legal requirements
+    legalcitation: O.R.C. 1923.02
+    legalelements:
+      object: DAList
+      object_type: DAObject
+      allnotany: True
+      elements:
+        - 
+        - 
+        - Statute of Limitations
+        - 
+        - Lack of Area Jurisdiction
+    factelements:
+      object: DAList
+      object_type: DAObject
+      elements:
+  - name: Lack of Area Jurisdiction
+      object: DAObject
+    typeofhousing:
+    state: Ohio
+    parent: Jurisdiction
+    description: A landlord must meet the legal requirements
+    legalcitation: O.R.C. 1923.02
+    legalelements:
+      object: DAList
+      object_type: DAObject
+      allnotany: True
+      elements:
+        - 
+        - Fictitious Name Registration
+        - Statute of Limitations
+        - Unauthorized Practice of Law
+        - 
+    factelements:
+      object: DAList
+      object_type: DAObject
+      elements:
+  - name: Deficient Content or Service of Notice to Vacate
+      object: DAObject
+    typeofhousing:
+    state: Ohio
+    parent: Notice
+    description:
+    legalcitation: O.R.C. 1923.04
+    legalelements:
+      object: DAList
+      object_type: DAObject
+      allnotany: True
+      elements:
+        - 
+        - Deficient Service of Process
+        - Waiver of Notice to Vacate
+    factelements:
+      object: DAList
+      object_type: DAObject
+      elements:
+  - name: Deficient Service of Process
+      object: DAObject
+    typeofhousing:
+    state: Ohio
+    parent: Notice
+    description:
+    legalcitation: O.R.C. 1923.04
+    legalelements:
+      object: DAList
+      object_type: DAObject
+      allnotany: True
+      elements:
+    factelements:
+      object: DAList
+      object_type: DAObject
+      elements:
+      	- name: service_attempt_date
+      	- name: service_attempt_success
+      	- name: hearing_date
+  - name: Waiver of Notice to Vacate
+      object: DAObject
+    typeofhousing:
+    state: Ohio
+    parent: Notice
+    description:
+    legalcitation: O.R.C. 1923.04
+    legalelements:
+      object: DAList
+      object_type: DAObject
+      allnotany: True
+      elements:
+    factelements:
+      object: DAList
+      object_type: DAObject
+      elements:
+        - name: last_rent_payment_date
+        - name: last

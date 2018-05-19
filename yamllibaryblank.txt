@@ -1,0 +1,70 @@
+name:
+  legalCiteList:
+  - name:
+    typeoflaw:
+    cite:
+    quote:
+    fulltext:
+  plainEnglish:
+    lists:
+    paragraphs:
+    steps:
+    definitions:
+    pics:
+  remedies:
+  - typeofremedy:
+    legalCiteList:
+    - name:
+      typeoflaw:
+      cite:
+      quote:
+    plainEnglish:
+      lists:
+      paragraphs:
+      steps:
+      definitions:
+      pics:
+  tools:
+  - typeoftool:
+    required:
+    input:
+    -
+    legalCiteList:
+    - name:
+      typeoflaw:
+      cite:
+      quote:
+  elements:
+    legalElement:
+    -
+    factElement:
+    - name:
+      variable:
+      variablequestion:
+      evidence:
+        for:
+        - typeofevidence:
+          examplesofevidence:
+          admissible:
+          legalCiteList:
+          - name:
+            typeoflaw:
+            cite:
+            quote:
+          challengestoevidence:      
+        against:
+        - typeofevidence:
+          examplesofevidence:
+          admissible:
+          legalCiteList:
+          - name:
+            typeoflaw:
+            cite:
+            quote:
+          challengestoevidence:
+  parent:
+  description:
+  stage:
+  typeofhousing:
+  nameid:
+  areajurisdiction
