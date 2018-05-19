@@ -17,7 +17,24 @@ Different scenarios -
 * Question with multiple answers:
   - Examples:
     - Grounds
-- Element with no children - answer to question provides Explanation and Instructions
--- Examples:
---- LatePayAllowed
----
+* Element with no children - answer to question provides Explanation and Instructions
+  - Examples:
+    - LatePayAllowed
+    - LateFeeUnreasonable
+    
+    
+EvictionAction
+ * Grounds
+   - Nonpayment
+   - LeaseExpiring
+     - Lease Expired
+       - Term
+       - MonthToMonth
+       - AtWill
+   - BreachLease
+   - NewLL
+ * Notice
+ * Preconditions
+ * OtherDefenses
+   - Discrimination
+   - Retaliation
