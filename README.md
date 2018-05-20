@@ -17,11 +17,52 @@ Different scenarios -
 * Question with multiple answers:
   - Examples:
     - Grounds
+  - A question with multiple answers should have no information in the yes/no section
+* Asking one question at a time
+  - Examples:
+    - Nonpayment
 * Element with no children - answer to question provides Explanation and Instructions
   - Examples:
     - LatePayAllowed
     - LateFeeUnreasonable
-    
+ * Question where answer depends on some question with multiple answers
+   - Examples:
+     - LeaseExpiring
+     
+Categories for Data Fields for Elements     
+* LegalElements
+  - Any children LegalElements that need to be true
+* Facts
+  - Any facts
+  - Facts are often important in elements with no other legal elements
+  - Facts could
+* LegalCite
+  - The information about the applicable law, which is in Finch
+* PlainEnglish
+  - Plain English d
+  - Needed for QnA Markup:
+    - Question to see if applicable
+    - Neutral Plain English Explanations
+    - Information if Yes
+    - Information if No
+  - Types of Plain English
+    - Explainer
+    - Instructions
+    - Steps
+* Remedies
+  - The legal remedies if the requirements of this element are met
+  - Types of remedies:
+    - Actual damages
+    - Attorney fees
+    - Dismissal of the case
+    - Injunction
+  - There should be legalcites for these too
+* Tools
+  - What a party can do if this requirements of this element are met, like file a motion, answer or counterclaim, or make
+* Jurisdictions
+  - The fields
+
+
     
 EvictionAction
  * Grounds
@@ -42,6 +83,21 @@ EvictionAction
      - DifferentLeaseViolation
    - NewLL
  * Notice
+   - Challenges to affidavits of service
+   - No service
+   - Service less than seven (7) days before the initial hearing
+   - Service on legal holidays
+   - Service by a named plaintiff or agents
+   - Substituted service on non
+   - Improper substitute service by mail and posting
+   - Improper posting on commercial tenant
+   - If the defendant is confined to a state institution failure to serve the institution's chief executive officer
+   - Improper affidavit of service
+   - Untimely or no affidavit of service
+   - Waiver of defense
+   - Service before filing action
+   - Service on business
+   - Incomplete service
  * Preconditions
    - The plaintiff is not entitled to possession
    - Plaintiff’s agent is not authorized with a proper power of authority
